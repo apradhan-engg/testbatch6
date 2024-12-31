@@ -26,7 +26,7 @@ public class StatusController {
 	public String addStatus(@RequestBody Status status) 
 	{
 		service.addStatus(status);
-		return "added";
+		return "status added";
 	}
 
 }
